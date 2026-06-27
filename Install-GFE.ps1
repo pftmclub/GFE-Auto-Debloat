@@ -32,11 +32,11 @@ Write-Host "NVIDIA driver version: $nvidia_smi_output"
 Write-Host "-----------------------------------------"
 
 if ($nvidia_smi_output -ge "425.31") {
-    $GEFORCE_EXPERIENCE_VERSION = "3.26.0.154"
-    $APP_JS_DOWNLOAD_URL = "https://raw.githubusercontent.com/0x-FADED/GeForceExpLogin-Removal/master/app.js"
+    $GEFORCE_EXPERIENCE_VERSION = "3.14.0.139"
+    $APP_JS_DOWNLOAD_URL = "https://github.com/pftmclub/GFE-Auto-Debloat/raw/refs/heads/main/app.js"
 }
 else {
-    $GEFORCE_EXPERIENCE_VERSION = "3.18.0.94"
+    $GEFORCE_EXPERIENCE_VERSION = "3.20.3.63"
     $APP_JS_DOWNLOAD_URL = "https://github.com/AntiGuide/BaiGfe/raw/refs/heads/master/app.js"
 }
 
