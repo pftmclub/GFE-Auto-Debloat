@@ -4,7 +4,7 @@ This is a simple script to install Nvidia GeForce Experience without telemetry a
 ## How to use
 
 ```
-irm https://github.com/hampta/GFE-Auto-Debloat/raw/main/Install-GFE.ps1 | iex
+irm https://github.com/pftmclub/GFE-Auto-Debloat/raw/main/Install-GFE.ps1 | iex
 ```
 
 ## Used resources
